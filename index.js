@@ -46,5 +46,5 @@ app.use('/api', proxy({ target: 'http://127.0.0.1:8082', changeOrigin: true, ws:
  
 // 监听3000端口
 app.listen(port, () => {
-  console.log('web is running on port ${port}');
+  console.log(`Example app listening on port ${port}`);
 });
